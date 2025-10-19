@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Todolist from './components/todolist'
 import NewStuff from './components/NewStuff'
+import Tocheck from './components/Tocheck'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <Todolist />
     <p>what is happening?</p>
     <NewStuff />
+    <Tocheck />
     </>
   )
 }
