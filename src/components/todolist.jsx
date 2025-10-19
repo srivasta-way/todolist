@@ -6,7 +6,7 @@ function todolist(){
 
 
 
-    //used to load the data saved in local storage
+    //used to load the data saved
     useEffect(()=>{
         const loadedlist = localStorage.getItem("todolist");
         if(loadedlist){
